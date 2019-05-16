@@ -6,13 +6,20 @@ package algorithms;
 
 import javax.swing.JOptionPane;
 
-public class GuessingPi {
+public class GuessingPi { public static void main(String[] args) {
+	
+
 	// 1. Make a main method and make sure your program can run
 
 		// 2. Make a String variable to hold the value of Pi.
 		//    Get the first few digits from http://www.piday.org/million/.
-
+	String pi = "3.1415926535897932384626433832795028841971";
 		// 3. Print out the first 3 digits of Pi to the console.
+	System.out.println(pi.charAt(0));
+	System.out.println(pi.charAt(1));
+	System.out.println(pi.charAt(2));
+	System.out.println(pi.charAt(3));
+	
 		//    The first value is "pi.charAt(0)", the second is "pi.charAt(1)", etc.
 		//    Run your program to see how this works.
 
@@ -35,5 +42,5 @@ public class GuessingPi {
 					//    to start over. Use 'break;' to break out of the loop.
 
 }
-
+}
 
