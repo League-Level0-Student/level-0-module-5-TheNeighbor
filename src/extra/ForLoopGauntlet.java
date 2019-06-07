@@ -35,6 +35,19 @@ public class ForLoopGauntlet {
 		for (int i = 2005; i < 2020; i++) {
 			System.out.println("In " + i + ", I was " + (i - 2005) + " year(s) old.");
 		}
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				System.out.println(i + " " + j);
+			}
+		}
+		System.out.println();
+		for (int i = 0; i < 8; i++) {
+			for (int j = 0; j < 9; j++) {
+				for (int k = 0; k < 10; k++) {
+					System.out.println(i + " " + j + " " + k);
+				}	
+			}
+		}
 	}
 
 }
