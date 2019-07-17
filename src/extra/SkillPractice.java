@@ -11,7 +11,8 @@ SkillPractice skills = new SkillPractice();
           	//skills.skill1();
           	//skills.skill2();
           	//skills.skill3();
-          	skills.skill4();
+          	
+skills.skill4();
           	skills.skill5();
 }
 
@@ -92,10 +93,12 @@ int cars = 3;
 if (cars == 0) {
 	JOptionPane.showMessageDialog(null, "I bet you use public transportation.");
 }
-else {
-	JOptionPane.showMessageDialog(null, "");
+if (cars == 1) {
+	JOptionPane.showMessageDialog(null, "Porsche");
 }
-
+if (cars > 1) {
+	JOptionPane.showMessageDialog(null, "12");
+}
 
 // If there is 1 car, use a pop-up to display the make/model of the car 
 
